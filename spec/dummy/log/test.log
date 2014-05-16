@@ -1,0 +1,329 @@
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 7ms
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms
+Processing by ProductsController#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 63455ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1251ms
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1299ms
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1177ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 3466ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 900ms
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 500 Internal Server Error in 1ms
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#new as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms)
