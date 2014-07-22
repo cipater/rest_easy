@@ -55,7 +55,7 @@ module RestEasy
     end
 
     def end_of_association_chain
-      resource_class
+      resource_class.all
     end
 
     def collection_chain
