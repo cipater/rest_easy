@@ -20,11 +20,10 @@ module RestEasy
           def undecorated_#{name}
             RestEasy.decorator_interface_class.undecorated_resource #{name}
           end
-          helper_method :#{name}
+
           def undecorated_#{name.pluralize}
             RestEasy.decorator_interface_class.undecorated_collection #{name.pluralize}
           end
-          helper_method :#{name.pluralize}
         }
       end
     end
