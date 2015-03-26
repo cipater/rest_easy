@@ -16,7 +16,7 @@ module RestEasy
 
     module ClassMethods
       def decorate_resource name
-        RestEasy.DecorateResources.class_eval %Q{
+        RestEasy::DecorateResources.class_eval %Q{
           def undecorated_#{name}
             RestEasy.decorator_interface_class.undecorated_resource #{name}
           end
