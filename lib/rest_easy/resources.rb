@@ -54,16 +54,16 @@ module RestEasy
       params[:id]
     end
 
-    def end_of_association_chain
-      resource_class.all
+    def association_chain
+      resource_class
     end
 
     def collection_chain
-      end_of_association_chain
+      association_chain.all
     end
 
     def resource_chain
-      end_of_association_chain
+      association_chain
     end
 
     def get_or_set_resource

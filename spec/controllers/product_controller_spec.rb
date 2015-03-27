@@ -7,6 +7,7 @@ describe ProductsController do
 
   before do
     Product.stub(:find_by).with(id: params[:id]).and_return product
+    Product.stub(:find_by!).with(id: params[:id]).and_return product
     Product.stub(:all).and_return products
     ProductsController.any_instance.stub(:render)
   end

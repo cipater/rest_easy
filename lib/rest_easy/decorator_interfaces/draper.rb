@@ -4,11 +4,13 @@ module RestEasy
       class << self
 
         def decorate resource
-          "::#{resource}Decorator".classify.decorate resource
+          "#{resource.class}Decorator".classify.constantize.decorate resource
         end
 
         def decorate_collection collection
-          "::#{resource}Decorator".classify.decorate_collection
+          klass_name = collection.is_a?(Array) ? collection.first.class : collection.name
+          # collection = collection.is_a?(ActiveRecord) ? collection : collection.all
+          "#{klass_name}Decorator".classify.constantize.decorate_collection collection
         end
 
         def undecorated_resource resource

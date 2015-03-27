@@ -7,16 +7,21 @@ require 'rest_easy/decorate_resources'
 require 'rest_easy/decorator_interfaces/draper'
 require 'rest_easy/decorator_interfaces/null'
 require 'rest_easy/pagination'
-# require 'rest_easy/railtie' if defined?(Rails)
 require 'rest_easy/base'
+require 'rest_easy/configuration'
 
 module RestEasy
 
-  attr_accessor :decorator_interface_class
-  @@decorator_interface_class = RestEasy::DecoratorInterfaces::Null
+  class << self
+    attr_writer :configuration
+  end
+
+  def self.configuration
+    @configuration ||= Configuration.new
+  end
 
   def self.configure
-    yield self
+    yield(configuration)
   end
 
 end
