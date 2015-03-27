@@ -20,17 +20,17 @@ class CustomerDecorator
   end
 end
 
-describe CustomersController do
+describe CustomersController, :type => :controller do
   let(:params)    { { id: "1" } }
   let(:customer)  { Customer.new(1) }
   let(:customers) { [ Customer.new(1), Customer.new(2) ] }
   let(:decorated_customers) { CustomerDecorator.decorate_collection(customers) }
 
   before do
-    Customer.stub(:find_by).with(id: params[:id]).and_return customer
-    Customer.stub(:find_by!).with(id: params[:id]).and_return customer
-    Customer.stub(:all).and_return customers
-    CustomersController.any_instance.stub(:render)
+    allow(Customer).to receive(:find_by).with(id: params[:id]).and_return customer
+    allow(Customer).to receive(:find_by!).with(id: params[:id]).and_return customer
+    allow(Customer).to receive(:all).and_return customers
+    allow_any_instance_of(CustomersController).to receive(:render).and_return nil
     RestEasy.configure do |config|
       config.decorator_interface_class = RestEasy::DecoratorInterfaces::Draper
     end
@@ -43,7 +43,7 @@ describe CustomersController do
 
   it "decorates Customers" do
     get :index
-    expect(subject.customers.first).to be_a(CustomerDecorator)
+    expect(subject.customers).to all(be_a(CustomerDecorator))
   end
 
   it "provides #undecorated_customer" do
