@@ -19,13 +19,23 @@ module RestEasy
     end
 
     def create
-      create_resource send(resource_name)
-      respond_with_object send(resource_name)
+      object = send(resource_name)
+
+      if create_resource(object)
+        yield object if block_given?
+      end
+
+      respond_with_object object
     end
 
     def update
-      update_resource send(resource_name), resource_params
-      respond_with_object send(resource_name)
+      object = send(resource_name)
+
+      if update_resource object, resource_params
+        yield object if block_given?
+      end
+
+      respond_with_object object
     end
 
     def destroy
@@ -58,7 +68,7 @@ module RestEasy
     #   end
     #
     def update_resource object, attributes
-      object.update_attributes attributes
+      object.update attributes
     end
 
     # Handle the :destroy method for the resource. Overwrite it to call your

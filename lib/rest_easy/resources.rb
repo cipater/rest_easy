@@ -5,7 +5,7 @@ module RestEasy
     module ClassMethods
 
       def resource_name
-        @_resource_name ||= controller_name.singularize
+        @_resource_name ||= resource_class.name.underscore.singularize
       end
 
       def resource_class
@@ -51,7 +51,15 @@ module RestEasy
     end
 
     def build_resource_with
-      [ :new, resource_params ]
+      [ build_method, resource_params ]
+    end
+
+    def build_method
+      parent ? :build : :new
+    end
+
+    def parent
+      false
     end
 
     def resource_id
