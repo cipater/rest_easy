@@ -15,7 +15,6 @@ describe ProductsController, :type => :controller do
 
   it "provides #products for index requests" do
     get :index
-    binding.pry
     expect(subject.products).to eq(products)
   end
 

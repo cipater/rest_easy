@@ -11,14 +11,6 @@ module RestEasy
           collection
         end
 
-        def undecorated_resource resource
-          resource
-        end
-
-        def undecorated_collection collection
-          collection
-        end
-
       end
     end
   end
