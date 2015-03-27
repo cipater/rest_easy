@@ -29,10 +29,12 @@ module RestEasy
         def #{resource_name}
           get_or_set_resource
         end
+        alias_method :resource, :#{resource_name}
 
         def #{collection_name}
           get_or_set_collection
         end
+        alias_method :collection, :#{collection_name}
       }
     end
 
@@ -77,7 +79,6 @@ module RestEasy
     def get_resource
       instance_variable_get "@#{resource_name}"
     end
-    alias_method :resource, :get_resource
 
     def set_resource resource
       instance_variable_set "@#{resource_name}", resource
@@ -86,7 +87,6 @@ module RestEasy
     def get_collection
       instance_variable_get "@#{collection_name}"
     end
-    alias_method :collection, :get_collection
 
     def set_collection collection
       instance_variable_set "@#{collection_name}", collection

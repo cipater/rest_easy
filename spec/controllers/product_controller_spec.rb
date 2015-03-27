@@ -15,6 +15,7 @@ describe ProductsController, :type => :controller do
 
   it "provides #products for index requests" do
     get :index
+    binding.pry
     expect(subject.products).to eq(products)
   end
 
@@ -33,7 +34,6 @@ describe ProductsController, :type => :controller do
   describe "#show" do
     it "sets @product" do
       get :show, id: product.id
-
       expect(assigns(:product)).to eq(product)
       expect(subject.product).to eq(product)
     end
