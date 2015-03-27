@@ -24,6 +24,8 @@ module RestEasy
       helper_method :new_resource_path
       helper_method "#{resource_name}"
       helper_method "#{collection_name}"
+      helper_method :resource
+      helper_method :collection
 
       RestEasy::Resources.module_eval %Q{
         def #{resource_name}
