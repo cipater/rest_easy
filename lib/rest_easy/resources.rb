@@ -150,9 +150,5 @@ module RestEasy
       params.require(resource_params_name).permit *permitted_attributes
     end
 
-    def nested_path
-      self.class.to_s.deconstantize.split('::').collect(&:underscore).collect(&:to_sym)
-    end
-
   end
 end

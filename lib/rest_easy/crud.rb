@@ -90,5 +90,9 @@ module RestEasy
       nested_path + [object]
     end
 
+    def nested_path
+      defined?(super) ? super : self.class.to_s.deconstantize.split('::').collect(&:underscore).collect(&:to_sym)
+    end
+
   end
 end
