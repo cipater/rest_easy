@@ -1,0 +1,3 @@
+class ChildsController < ParentsController
+
+end

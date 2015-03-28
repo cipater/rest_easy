@@ -18,7 +18,10 @@ module RestEasy
 
     end
 
-    included do
+
+
+    included do |base|
+      puts base
       helper_method :resource_name
       helper_method :collection_name
       helper_method :new_resource_path
@@ -27,7 +30,23 @@ module RestEasy
       helper_method :resource
       helper_method :collection
 
-      RestEasy::Resources.module_eval %Q{
+      base.class_eval %Q{
+
+        def self.inherited(base)
+          base.class_eval %Q{
+            puts " --> def'ing \#{base.resource_name}"
+            def \#{base.resource_name}
+              get_or_set_resource
+            end
+            alias_method :resource, :\#{base.resource_name}
+
+            def \#{base.collection_name}
+              get_or_set_collection
+            end
+            alias_method :collection, :\#{base.collection_name}
+          }
+        end
+
         def #{resource_name}
           get_or_set_resource
         end
