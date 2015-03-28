@@ -18,8 +18,6 @@ module RestEasy
 
     end
 
-
-
     included do |base|
       puts base
       helper_method :resource_name

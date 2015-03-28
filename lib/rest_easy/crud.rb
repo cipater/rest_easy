@@ -22,6 +22,12 @@ module RestEasy
       object = send(resource_name)
 
       if create_resource(object)
+        if request.xhr?
+          flash.now[:notice] = "#{resource_name.humanize} was successfully created."
+        else
+          flash[:notice] = "#{resource_name.humanize} was successfully created."
+        end
+
         yield object if block_given?
       end
 
@@ -32,6 +38,12 @@ module RestEasy
       object = send(resource_name)
 
       if update_resource object, resource_params
+        if request.xhr?
+          flash.now[:notice] = "#{resource_name.to_s.humanize} was successfully updated."
+        else
+          flash[:notice] = "#{resource_name.to_s.humanize} was successfully updated."
+        end
+
         yield object if block_given?
       end
 
@@ -39,8 +51,19 @@ module RestEasy
     end
 
     def destroy
-      destroy_resource send(resource_name)
-      respond_with_object send(resource_name)
+      object = send(resource_name)
+
+      destroy_resource object
+
+      if object.destroyed?
+        if request.xhr?
+          flash.now[:notice] = "#{resource_name.to_s.humanize} was successfully deleted."
+        else
+          flash[:notice] = "#{resource_name.to_s.humanize} was successfully deleted."
+        end
+      end
+
+      respond_with_object object
     end
 
     private
