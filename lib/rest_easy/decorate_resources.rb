@@ -11,16 +11,20 @@ module RestEasy
 
     def set_resource resource
       instance_variable_set "@undecorated_#{resource_name}", resource
-      super decorator_class.decorate(resource)
+      super decorator_interface_class.decorate(resource)
     end
 
     def set_collection collection
       instance_variable_set "@undecorated_#{collection_name}", collection
-      super decorator_class.decorate_collection(collection)
+      super decorator_interface_class.decorate_collection(collection)
     end
 
-    def decorator_class
-      RestEasy.configuration.decorator_interface_class
+    def decorator_interface_class
+      RestEasy.configuration.decorator_interface_class.new(decorator_resource_class)
+    end
+
+    def decorator_resource_class
+      resource_class
     end
 
     module ClassMethods
