@@ -4,15 +4,15 @@ module RestEasy
       attr_reader :klass
 
       def initialize klass
-        @klass = klass.name
+        @klass = "#{klass}Decorator".classify.constantize
       end
 
       def decorate resource
-        "#{klass}Decorator".classify.constantize.decorate resource
+        klass.decorate resource
       end
 
       def decorate_collection collection
-        "#{klass}Decorator".classify.constantize.decorate_collection collection
+        klass.decorate_collection collection
       end
 
     end

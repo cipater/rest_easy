@@ -31,10 +31,12 @@ module RestEasy
       def decorate_resource resource_name, collection_name
         RestEasy::DecorateResources.class_eval %Q{
           def undecorated_#{resource_name}
+            get_or_set_resource
             @undecorated_#{resource_name}
           end
 
           def undecorated_#{collection_name}
+            get_or_set_collection
             @undecorated_#{collection_name}
           end
         }
