@@ -138,7 +138,8 @@ module RestEasy
       params[resource_request_name].nil? ? resource_request_name : resource_name
     end
 
-    def resource_params
+    def resource_params(_permitted = nil)
+      _permitted ||= permitted_attributes
       return {} unless params.key?(resource_params_name)
       params.require(resource_params_name).permit(*permitted_attributes)
     end
