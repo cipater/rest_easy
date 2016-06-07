@@ -141,7 +141,7 @@ module RestEasy
     def resource_params(_permitted = nil)
       _permitted ||= permitted_attributes
       return {} unless params.key?(resource_params_name)
-      params.require(resource_params_name).permit(*permitted_attributes)
+      params.require(resource_params_name).permit(*_permitted)
     end
   end
 end
